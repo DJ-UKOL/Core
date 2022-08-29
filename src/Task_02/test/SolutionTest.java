@@ -10,8 +10,8 @@ class SolutionTest {
     @Test
     void quickSortTestMethod() {
 
-        int[] arrInt = new int[]{5, 6, 3, 2, 5, 1, 4, 9};       // Исходный массив
-        int[] sortedArray = new int[]{1, 2, 3, 4, 5, 5, 6, 9};       // Остортированный массив
+        int[] arrInt = new int[]{5, 6, 3, 2, 5, 1, 4, 9};            // Исходный массив
+        int[] sortedArray = new int[]{1, 2, 3, 4, 5, 5, 6, 9};       // Отсортированный массив
 
         Solution.quickSort(arrInt, 0, arrInt.length - 1);
         assertArrayEquals(arrInt, sortedArray);
