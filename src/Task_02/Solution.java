@@ -27,8 +27,8 @@ public class Solution {
     // Метод быстрой сортировки
     public static void quickSort(int[] source, int leftBorder, int rightBorder) {
         // source - входной массив
-        int leftMarker = leftBorder;        // левый маркер     (начало массива)
-        int rightMarker = rightBorder;      // правый маркер    (конец массива)
+        int leftMarker = leftBorder;        // левый маркер (начало массива)
+        int rightMarker = rightBorder;      // правый маркер (конец массива)
         int pivot                           // опорный элемент
                 = source[(leftMarker + rightMarker) / 2];       // выбираем середину массива
         do {
